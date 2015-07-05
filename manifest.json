@@ -1,6 +1,6 @@
 {
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoXjmvzlbO7p70MRXxllsTLW907I0jQwACEbzJmtFLsnYGcKRxyqakiKwlkEgJsMEUpg7Al6hLANzAoL9j4E2oJXIQ2/ky4WxKc/FMBTa8xf1WrDzJRKrmX03bUKlDRWrwWI2wNJAf+MKFsTiuPLWnsaCPZiE7cPd22J2VzjYkjcmZcovkb0D3UoCq0/eKva0RMifk2xxM4p9/067jZzbhkFJX+h0m1eyHaPyzl/Tw3Ic4xVRYXWfHn8Q4niJDIXcwusRKDjyD42fKxjvWXYt13sYer4g3/8JyIHaenbqs0i4eJUDt4V81qvfeDdQ79Xbs1wooMAE8tOpY2Y3tOyAlQIDAQAB",
-    "name": "Identity test",
+    "name": "RemoDiva",
     "version": "1",
     "manifest_version": 2,
     "background": {
@@ -13,7 +13,8 @@
     "oauth2": {
         "client_id": "689225418821-va24vj3ora160l1h8qrfgafqac7ti47b.apps.googleusercontent.com",
         "scopes": [
-            "https://www.googleapis.com/auth/userinfo.email"
+            "profile",
+            "email"
         ]
     }
 }
